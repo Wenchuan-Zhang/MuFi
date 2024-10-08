@@ -7,6 +7,10 @@ This repository contains the PyTorch implementation of **MuFi**, a model designe
 - **Customizable architecture**: The model architecture is modular and can be easily adapted or extended with additional feature sets.
 - **Detailed evaluation**: Supports a variety of metrics such as AUC, accuracy, sensitivity, specificity, PPV, and NPV, providing a comprehensive performance assessment.
 
+## To-Do
+- [ ] Write detailed documentation for data preprocessing and feature extraction.
+- [ ] Upload all source code files.
+
 ## Installation
 1. Clone this repository:
    ```bash
