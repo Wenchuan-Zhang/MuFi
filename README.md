@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # MuFi: A WSI–MRI Multimodal Fusion Algorithm for Breast Cancer Neoadjuvant Therapy Response Prediction
 
 This repository accompanies our paper **"Attention-based multimodal fusion transformer for predicting the efficacy of neoadjuvant therapy in breast cancer: a cross-institutional retrospective study"**, published in *Breast Cancer Research* (2026) 28:4.
@@ -126,23 +125,3 @@ If you find our work useful in your research, please cite:
 ## Acknowledgements
 
 The model and training pipeline build upon the [SurvPath](https://github.com/mahmoodlab/SurvPath) framework. We thank the authors of [CLAM](https://github.com/mahmoodlab/CLAM), [HIPT](https://github.com/mahmoodlab/HIPT), [Prov-Gigapath](https://github.com/prov-gigapath/prov-gigapath), [H-optimus](https://github.com/bioptimus/releases), and [PyRadiomics](https://github.com/AIM-Harvard/pyradiomics) for their open-source tools.
-=======
-# MuFi: Multimodal Full information Model
-
-This repository contains the PyTorch implementation of **MuFi**, a model designed for multi-feature integration, specifically optimized for predicting clinical outcomes in breast cancer. MuFi combines radiomics, pathomics, and clinical features to enhance the model's predictive capabilities. This repository also includes necessary scripts, requirements, and instructions for reproducing the results from our study.
-
-## Features
-- **Multi-modal data integration**: The model leverages different feature sets, including radiomics, pathomics, and clinical data.
-- **Customizable architecture**: The model architecture is modular and can be easily adapted or extended with additional feature sets.
-- **Detailed evaluation**: Supports a variety of metrics such as AUC, accuracy, sensitivity, specificity, PPV, and NPV, providing a comprehensive performance assessment.
-
-## To-Do
-- [ ] Write detailed documentation for data preprocessing and feature extraction.
-- [ ] Upload all source code files.
-
-## Installation
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/Wenchuan-Zhang/MuFi.git
-   cd MuFi
->>>>>>> e42d33de4d80a989ccb48cd09c4e1aaa48564c08
