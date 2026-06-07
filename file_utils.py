@@ -1,14 +1,20 @@
 import pickle
+<<<<<<< HEAD
 import h5py
 import os
 
 os.environ["HDF5_USE_FILE_LOCKING"] = 'FALSE'
 
 def save_pkl(filename, save_object):
+=======
+
+def _save_pkl(filename, save_object):
+>>>>>>> e42d33de4d80a989ccb48cd09c4e1aaa48564c08
 	writer = open(filename,'wb')
 	pickle.dump(save_object, writer)
 	writer.close()
 
+<<<<<<< HEAD
 def load_pkl(filename):
 	loader = open(filename,'rb')
 	file = pickle.load(loader)
@@ -35,3 +41,10 @@ def save_hdf5(output_path, asset_dict, attr_dict= None, mode='a'):
             dset[-data_shape[0]:] = val
     file.close()
     return output_path
+=======
+def _load_pkl(filename):
+	loader = open(filename,'rb')
+	file = pickle.load(loader)
+	loader.close()
+	return file
+>>>>>>> e42d33de4d80a989ccb48cd09c4e1aaa48564c08
